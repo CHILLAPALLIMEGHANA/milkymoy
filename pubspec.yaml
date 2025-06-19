@@ -1,0 +1,44 @@
+name: milkymoy
+description: A milk products e-commerce application
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"  # Updated for Flutter 3.x compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6 
+  animated_checkmark: ^3.1.0 # Updated to latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0  # Added for better code analysis
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/profile.jpg
+    - assets/images/milk1.png
+    - assets/images/milk2.png
+    - assets/images/milk3.png
+
+    - assets/images/product1.png
+    - assets/images/product2.jpg
+    
+    - assets/images/discount_icon.png
+   
+    - assets/images/paneer1.png
+    - assets/images/paneer2.png
+    - assets/images/cheese1.png
+    - assets/images/cheese2.png
+    - assets/images/ghee1.png
+    - assets/images/ghee2.png
+    - assets/images/curd1.png
+    - assets/images/curd2.png
