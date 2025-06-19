@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.green,
-        scaffoldBackgroundColor: const Color.fromARGB(255, 148, 23, 148),
+        scaffoldBackgroundColor: const Color(0xFFFDF5FD),
       ),
       home: const MilkyMoyLogoScreen(),
     );
